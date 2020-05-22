@@ -1,0 +1,36 @@
+body {
+  position: absolute;
+  background-color: #000;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.welcome {
+  color: #f00;
+  position: relative;
+  top: 45vh;
+  left: 40vw;
+  margin: 0px;
+  padding: 0px;
+  animation-name: welcome;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes welcome {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.Hello {
+  color: #fff;
+}
+
+.Dnone {
+  display: none;
+}
